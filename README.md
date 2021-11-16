@@ -15,7 +15,7 @@ This is a rough high level design of the friend ranker application.
 
 ## How to contribute
 Interested in helping out build this out? 
-First clone the `development branch` repository to your local eenvironment  by entering 
+First clone the `development branch` repository to your local environment  by entering 
 
 `git clone {development branch url/ssh} `
 
