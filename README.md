@@ -1,6 +1,11 @@
 # friend-ranker
 A friend ranking application that let's you put your friends in their place.
 
+# It's Open Source
+This is an open source project?? I guess? LOL if you see this and you're curious, feel free to reach out to me for more details. 
+I'll be updating this as much as I can. A Low Level Design should be out sometime when I'm free lol. In the mean time, checkout the current design. 
+
+
 ## High Level Design
 This is a rough high level design of the friend ranker application.
 
