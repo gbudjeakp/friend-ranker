@@ -11,3 +11,20 @@ Feel free to suggest improvements
 This is a rough high level design of the friend ranker application.
 
 ![Friend-Ranker Architecture](https://user-images.githubusercontent.com/61554248/141692748-f48877ed-b6a6-49ad-867d-7b77549b4b7d.png)
+
+
+## How to contribute
+Interested in helping out build this out? 
+First clone the `development branch` repository to your local eenvironment  by entering 
+
+`git clone {development branch url/ssh} `
+
+# For Front-End Development
+Next open the repo in your IDE. Then change directories to `client` if you want to work on the front-end part of things and enter 
+
+`yarn start`
+
+to start up the react side of things. The project will be done in TypeScript so keep that in mind.
+
+# For Back-End Development
+There is nothing for the back-end template as of yet. This will be updated as time goes on.
