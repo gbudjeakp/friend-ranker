@@ -6,9 +6,9 @@ This is an open source project?? I guess? LOL if you see this and you're curious
 I'll be updating this as much as I can. A Low Level Design should be out sometime when I'm free lol. In the mean time, checkout the current design. 
 Feel free to suggest improvements. Design is subject to change as more research is done.
 
-#Plans For the App
-For the sake of time and simplicity, the app will be built using API's from various social media platforms. It'll be dockerized and running serverless on AWS or GCP.
-The UI mockups are currently being designed and should be ready some time in the future. I am still doing some research and planning on the user experience. 
+# Plans For the App
+For the sake of time and simplicity, the app will be built using API's from various social media platforms. It'll be dockerized and running serverless on AWS or GCP. There'll also be a CI/CD pipeline prepared using github-actions.
+The UI mockups are currently being designed and should be ready some time in the future. I am still doing some research and planning on the user experience. Once that's done a complete High and Low level design of the app will be available. 
 
 ## High Level Design
 This is a rough high level design of the friend ranker application.
@@ -27,7 +27,7 @@ Next open the repo in your IDE. Then change directories to `client` if you want 
 
 `yarn start`
 
-to start up the react side of things. The project will be done in TypeScript so keep that in mind.
+to start up the react side of things. The project will be done in TypeScript so keep that in mind. I'll be adding the UI/UX mocks to the front-end side of things once everything is figured out.
 
 # For Back-End Development
 There is nothing for the back-end template as of yet. This will be updated as time goes on.
