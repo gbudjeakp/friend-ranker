@@ -6,6 +6,9 @@ This is an open source project?? I guess? LOL if you see this and you're curious
 I'll be updating this as much as I can. A Low Level Design should be out sometime when I'm free lol. In the mean time, checkout the current design. 
 Feel free to suggest improvements. Design is subject to change as more research is done.
 
+#Plans For the App
+For the sake of time and simplicity, the app will be built using API's from various social media platforms. It'll be dockerized and running serverless on AWS or GCP.
+The UI mockups are currently being designed and should be ready some time in the future. I am still doing some research and planning on the user experience. 
 
 ## High Level Design
 This is a rough high level design of the friend ranker application.
