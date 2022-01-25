@@ -7,12 +7,12 @@ I'll be updating this as much as I can. A Low Level Design should be out sometim
 Feel free to suggest improvements. Design is subject to change as more research is done.
 
 # Plans For the App
-For the sake of time and simplicity, the app will be built using API's from various social media platforms. It'll be dockerized and running serverless on AWS or GCP. There'll also be a CI/CD pipeline prepared using github-actions.
-The UI mockups are currently being designed and should be ready some time in the future. I am still doing some research and planning on the user experience. Once that's done a complete High and Low level design of the app will be available. 
+For the sake of time and simplicity, the app will be built using API's from various social media platforms. It'll be dockerized and running serverless on  GCP. There'll also be a CI/CD pipeline prepared using github-actions.
+The UI mockups are currently being designed and should be ready some time in the future. I am still doing some research and planning on the user experience. Once that's done a complete High and Low level design of the app will be available.
 
 ## High Level Design
 This is a rough high level design of the friend ranker application.
-
+### Previous Design 
 ![Friend-Ranker Architecture](https://user-images.githubusercontent.com/61554248/141692748-f48877ed-b6a6-49ad-867d-7b77549b4b7d.png)
 
 
