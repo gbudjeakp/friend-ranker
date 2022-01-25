@@ -27,7 +27,7 @@ This is a rough high level design of the friend ranker application.
 
 ### New Design
 This design is going to be making use of GCP as opposed to AWS one of the reasons for this switch is just a personal one. GCP though having less features, 
-has the basic things i'll need for the app plus it pairs nicely with Kubernetes (This would be good if we needed to scale as we would have everything out of the box and spend less time configuring stuff i. e GKE).  I'm opted for a simple REST API here since i felt that we wouldn't be pooling large numbers of datasets to be concerned about making specific queries. This could change depending on the number of users but for now I thing REST works fine.
+has the basic things i'll need for the app plus it pairs nicely with Kubernetes (This would be good if we needed to scale as we would have everything out of the box and spend less time configuring stuff i. e GKE).  I'm opted for a simple REST API here since i felt that we wouldn't be pooling large numbers of datasets to be concerned about making specific queries. This could change depending on the number of users but for now I thing REST works fine. There isn't really a need for a load balancer at the moment since i'm not sure what kind of traffic we'll be getting until i have an idea of that, there won't be any scalability technologies. That doesn't mean the app won't be be built with scalability in mind.
 ![gcp architecture](https://user-images.githubusercontent.com/61554248/151041901-44b93c30-32ae-4612-8199-a86fe7a75926.png)
 
 
