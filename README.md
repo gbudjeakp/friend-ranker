@@ -2,12 +2,12 @@
 A friend ranking application that let's you put your friends in their place 
 
 # It's Open Source
-This is an open source project?? I guess? LOL if you see this and you're curious, feel free to reach out to me for more details. 
-I'll be updating this as much as I can. A Low Level Design should be out sometime when I'm free lol. In the mean time, checkout the current design. 
-Feel free to suggest improvements. Design is subject to change as more research is done.
+This is an open source project?? I guess? if you see this and you're curious, feel free to reach out to me for more details. 
+I'll be updating this as much as I can. A Low Level Design should be out sometime when I'm free. In the mean time, checkout the current design. 
+Feel free to suggest improvements. Design is subject to change as more research is being done.
 
 # Plans For the App
-For the sake of time and simplicity, the app will be built using API's from various social media platforms. It'll be dockerized and running serverless on  GCP. There'll also be a CI/CD pipeline prepared using github-actions.
+For the sake of time and simplicity, the app will be built using API's from various social media platforms. It'll be dockerized and running serverless on GCP. There'll also be a CI/CD pipeline prepared using github-actions.
 
 # UI/UX Designs
 Here are some overviews of the UI. There'll be prototypes of the functionality in the future. For now this app is geared towards desktop but there'll be a mobile version for it 
@@ -22,7 +22,7 @@ some time in the future.
 
 ## High Level Design
 This is a rough high level design of the friend ranker application.
-### Previous Design 
+### Previous Design(Update on the new design should be out soon) 
 ![Friend-Ranker Architecture](https://user-images.githubusercontent.com/61554248/141692748-f48877ed-b6a6-49ad-867d-7b77549b4b7d.png)
 
 
@@ -37,7 +37,7 @@ Next open the repo in your IDE. Then change directories to `client` if you want 
 
 `yarn start`
 
-to start up the react side of things. The project will be done in TypeScript so keep that in mind. I'll be adding the UI/UX mocks to the front-end side of things once everything is figured out.
+to start up the react side of things. The project will be done in TypeScript so keep that in mind. I'll be adding the UI/UX mocks to the front-end side of things once everything is figured out well maybe not when everything is figured out maybe just bits by bits.
 
 # For Back-End Development
 After some consideration and planning, there'll be no backend here (Sort of a no backend). The application will be a severless on hosted on GCP and running with cloud functions.
