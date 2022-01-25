@@ -8,7 +8,17 @@ Feel free to suggest improvements. Design is subject to change as more research 
 
 # Plans For the App
 For the sake of time and simplicity, the app will be built using API's from various social media platforms. It'll be dockerized and running serverless on  GCP. There'll also be a CI/CD pipeline prepared using github-actions.
-The UI mockups are currently being designed and should be ready some time in the future. I am still doing some research and planning on the user experience. Once that's done a complete High and Low level design of the app will be available.
+
+# UI/UX Designs
+Here are some overviews of the UI. There'll be prototypes of the functionality in the future. For now this app is geared towards desktop but there'll be a mobile version for it 
+some time in the future.
+  ### The Dashboard before rankings have been made.
+   ![Empty-Dashboard](https://user-images.githubusercontent.com/61554248/150936920-b77f964b-81d8-43d5-bb6d-1cc4c78b86da.png)
+   
+  ### The Dashboard after user has ranked friends
+   ![Dashboard](https://user-images.githubusercontent.com/61554248/150937118-ec628c2f-ec85-4fea-a3ce-1925de1d2416.png)
+
+
 
 ## High Level Design
 This is a rough high level design of the friend ranker application.
@@ -30,4 +40,4 @@ Next open the repo in your IDE. Then change directories to `client` if you want 
 to start up the react side of things. The project will be done in TypeScript so keep that in mind. I'll be adding the UI/UX mocks to the front-end side of things once everything is figured out.
 
 # For Back-End Development
-There is nothing for the back-end template as of yet. This will be updated as time goes on.
+After some consideration and planning, there'll be no backend here (Sort of a no backend). The application will be a severless on hosted on GCP and running with cloud functions.
