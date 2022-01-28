@@ -46,4 +46,4 @@ Next open the repo in your IDE. Then change directories to `client` if you want 
 to start up the react side of things. The project will be done in TypeScript so keep that in mind. I'll be adding the UI/UX mocks to the front-end side of things once everything is figured out well maybe not when everything is figured out maybe just bits by bits.
 
 # For Back-End Development
-After some consideration and planning, there'll be no backend here (Sort of a no backend). The application will be a severless on hosted on GCP and running with cloud functions.
+Backend will be in nodejs.
