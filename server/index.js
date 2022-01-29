@@ -4,9 +4,11 @@ const app = express(); //create express app
 
 
 //get end point
-app.get('/', (req, res) => {
+app.get('/home', (req, res) => {
     res.send('<h1>Hello World</h1>');
 });
+
+
 
 //Listen on port 3000
 app.listen(8000, () => {
