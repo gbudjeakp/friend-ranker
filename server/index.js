@@ -1,7 +1,7 @@
 //Create express app
 const express = require('express'); //import express
 const app = express(); //create express app
-
+const port = 8000 || process.env.PORT;
 
 //get end point
 app.get('/home', (req, res) => {
@@ -11,6 +11,6 @@ app.get('/home', (req, res) => {
 
 
 //Listen on port 3000
-app.listen(8000, () => {
-    console.log('Server is running on port 8000');
+app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
 });
