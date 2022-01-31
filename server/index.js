@@ -1,10 +1,10 @@
 //Create express app
 const express = require('express'); //import express
 const app = express(); //create express app
-const port = 8000 || process.env.PORT;
+const port = process.env.PORT || 8000;
 
 //get end point
-app.get('/home', (req, res) => {
+app.get('/', (req, res) => {
     res.send('<h1>Hello World</h1>');
 });
 
