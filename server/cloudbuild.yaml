@@ -1,4 +1,6 @@
 steps:
+- name: nodejs14
+  entrypoint: index.js
 - name: "gcr.io/cloud-builders/npm"
   args: ["install"]
 - name: "gcr.io/cloud-builders/gcloud"

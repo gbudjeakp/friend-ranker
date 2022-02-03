@@ -1,2 +1,3 @@
 runtime: nodejs14
+env: flex
 
