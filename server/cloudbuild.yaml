@@ -1,5 +1,4 @@
  steps:
 - name: "gcr.io/cloud-builders/gcloud"
-  args: ["builds", "submit", "--config", "cloudbuild.yaml"]
   args: ["app", "deploy"]
 timeout: "1600s"
