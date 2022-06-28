@@ -7,10 +7,10 @@ I'll be updating this as much as I can. A Low Level Design should be out sometim
 Feel free to suggest improvements. Design is subject to change as more research is being done.
 
 # Plans For the App
-For the sake of time and simplicity, the app will be built using API's from various social media platforms. It'll be dockerized and running serverless on GCP. There'll also be a CI/CD pipeline prepared using github-actions.
+For the sake of time and simplicity, the app will be built using API's from various social media platforms. It might become dockerized sometime in the future but it'll definetly be. running on GCP. There'll also be a CI/CD pipeline prepared using github-actions.
 
 # UI/UX Designs
-Here are some overviews of the UI. There'll be prototypes of the functionality in the future. For now this app is geared towards desktop but there'll be a mobile version for it 
+Here are some overviews of the UI. There'll be prototypes of the functionality in the future. For now this app is geared towards desktop but there'll be a mobile version for it starting with Android. 
 some time in the future.
   ### The Dashboard before rankings have been made.
    ![Empty-Dashboard](https://user-images.githubusercontent.com/61554248/150936920-b77f964b-81d8-43d5-bb6d-1cc4c78b86da.png)
